@@ -1,0 +1,74 @@
+{
+  "name": "rekha-sutra",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A modern palmistry and astrology platform offering online consultations, AI-based palm readings, and spiritual guidance.",
+  "dependencies": {
+    "@clerk/clerk-react": "^5.33.0",
+    "@emailjs/browser": "^4.4.1",
+    "@google/generative-ai": "^0.24.1",
+    "@headlessui/react": "^1.7.13",
+    "@heroicons/react": "^2.0.16",
+    "@stripe/react-stripe-js": "^1.16.5",
+    "@stripe/stripe-js": "^1.46.0",
+    "axios": "^1.3.3",
+    "chart.js": "^4.2.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "framer-motion": "^10.0.0",
+    "lenis": "^1.0.45",
+    "lucide-react": "^0.316.0",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.5",
+    "react": "^18.2.0",
+    "react-calendar": "^4.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.43.0",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "5.0.1",
+    "react-webcam": "^7.0.1",
+    "socket.io-client": "^4.6.1",
+    "stripe": "^11.15.0",
+    "zustand": "^4.3.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm start\"",
+    "email-test": "node -e \"require('./server.js')\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^9.2.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}
